@@ -74,12 +74,13 @@ namespace MissionPlanner
             ServicePointManager.ServerCertificateValidationCallback =
                 new System.Net.Security.RemoteCertificateValidationCallback(
                     (sender, certificate, chain, policyErrors) => { return true; });
-
+            /*
             if (args.Length > 0 && args[0] == "/update")
             {
                 Utilities.Update.DoUpdate();
                 return;
             }
+            */
 
             name = "Mission Planner";
 

@@ -63,7 +63,7 @@ namespace MissionPlanner
 
         public void but_Click(object sender, EventArgs e)
         {
-            using (var gridui = new GridUINew(this))
+            using (var gridui = new GridUISelectFarm(this))
             {
                 MissionPlanner.Utilities.ThemeManager.ApplyThemeTo(gridui);
 
